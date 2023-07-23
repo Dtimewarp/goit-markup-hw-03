@@ -69,7 +69,7 @@ img{
   color: #404bbf;
 }
 
-.list {
+.nav-list {
   color: var(--navyblue, #2e2f42);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -81,6 +81,21 @@ img{
   display:flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
+ }
+
+ .list {
+  color: var(--navyblue, #2e2f42);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  list-style: none;
+  display:flex;
+  align-items: center;
+  gap: 24px;
   padding: 24px 0;
  }
 
