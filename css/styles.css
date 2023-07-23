@@ -82,7 +82,8 @@ img{
   align-items: center;
   gap: 40px;
   padding: 24px 0;
- }
+ 
+   }
 
  .list {
   color: var(--navyblue, #2e2f42);
@@ -97,15 +98,14 @@ img{
   align-items: center;
   gap: 24px;
   padding: 24px 0;
-  margin-left: auto;
+  
    
  }
 
  .list-item{
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   gap: 24px;
-  border: 1px dotted red;
- }
+}
 
  .second-list-item{
   width: calc((100% - 48px) / 3);
@@ -282,8 +282,7 @@ padding-bottom: 120px;
 
 .container {
   /* max-width: 1440px; */
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   width:1158px;
   margin:0 auto;
   display: flex;
