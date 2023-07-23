@@ -77,8 +77,7 @@ img{
   line-height: 1.5;
   letter-spacing: 0.32px;
   list-style: none;
-  display: flex;
-}
+ }
 
 .address-list {
   color: var(--slate, #434455);
@@ -227,12 +226,14 @@ img{
   /* margin-left: 0; */
   /* margin-right: 0; */
   
+  
 }
 
-.header-style {
+.header-style .list {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #ffffff);
   padding-top: 24px;
   padding-bottom: 24px;
+  display: flex;
  }
 
