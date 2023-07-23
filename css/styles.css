@@ -164,6 +164,9 @@ img{
   letter-spacing: 0.64px;
   color: var(--iris, #4d5ae5);
   background-color: var(--cloud, #f4f4fd);
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  border-radius: 4px;
 }
 
 .filter-main-button:hover,
@@ -171,6 +174,7 @@ img{
   color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .card {
@@ -301,4 +305,13 @@ padding-bottom: 120px;
   padding: 32px 0;
  }
 
- 
+.filter-section{
+padding-top: 96px; padding-bottom: 120px;
+}
+
+.button-list{
+  display:flex;
+  justify-content: center; 
+  gap: 24px;
+  margin-bottom: 72px;
+}
