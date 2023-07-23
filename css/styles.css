@@ -105,6 +105,7 @@ img{
  .list-item{
   flex-basis: calc((100% - 3 * 24px) / 4);
   gap: 24px;
+  box-sizing: none;
 }
 
  .second-list-item{
@@ -306,12 +307,13 @@ padding-bottom: 120px;
  }
 
 .filter-section{
-padding-top: 96px; padding-bottom: 120px;
+  padding-top: 96px; padding-bottom: 120px;
 }
 
-.button-list{
-  display:flex;
-  justify-content: center; 
+.filter-list{
+  display: flex;
+  justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
 }
+
