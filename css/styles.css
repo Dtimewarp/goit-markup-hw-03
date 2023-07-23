@@ -5,17 +5,36 @@
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --cloud: #f4f4fd;
+  --cornflower; #e7e9fc;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 .logo {
   color: var(--iris, #4d5ae5);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -26,7 +45,7 @@ body {
 
 .studio-color {
   color: var(--navyblue, #2e2f42);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -47,7 +66,7 @@ body {
 
 .list {
   color: var(--navyblue, #2e2f42);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -58,7 +77,7 @@ body {
 
 .address-list {
   color: var(--slate, #434455);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -69,7 +88,7 @@ body {
 
 .footer-item {
   color: var(--cloud, #f4f4fd);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -80,7 +99,7 @@ body {
 
 .footer-studio-color {
   color: var(--cloud, #f4f4fd);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -91,7 +110,7 @@ body {
 
 .footer-text {
   color: var(--slate, #434455);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -102,7 +121,7 @@ body {
 }
 
 .filter-main-button {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -119,7 +138,7 @@ body {
 }
 
 .card {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -150,7 +169,7 @@ body {
 
 .order-service-btn {
   background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -182,3 +201,37 @@ body {
 .container-background {
   background-color: #ffffff;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* margin-left: 0; */
+  /* margin-right: 0; */
+  
+}
+
+.header-style {
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--white, #ffffff);
+  padding-top: 24px;
+  padding-bottom: 24px;
+ }
+
+.nav-list{
+  display: flex;
+  gap: 40px;
+} 
