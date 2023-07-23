@@ -45,6 +45,7 @@ img{
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .studio-color {
@@ -77,6 +78,8 @@ img{
   line-height: 1.5;
   letter-spacing: 0.32px;
   list-style: none;
+  display:flex;
+  align-items: center;
  }
 
 .address-list {
@@ -220,13 +223,12 @@ img{
 }
 
 .container {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   padding-left: 15px;
   padding-right: 15px;
-  /* margin-left: 0; */
-  /* margin-right: 0; */
-  
-  
+  width:1158px;
+  margin:0 auto;
+    
 }
 
 .header-style {
