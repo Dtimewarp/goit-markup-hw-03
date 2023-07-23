@@ -85,7 +85,8 @@ img{
  }
 
  .list-item{
-  width:calc((100%-72px)/4);
+  width: calc((100% - 72px) / 4);
+  gap: 24px;
  }
 
 .address-list {
