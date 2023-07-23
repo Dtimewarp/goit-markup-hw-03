@@ -229,11 +229,11 @@ img{
   
 }
 
-.header-style .list {
+.header-style {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #ffffff);
   padding-top: 24px;
   padding-bottom: 24px;
-  display: flex;
+  
  }
 
