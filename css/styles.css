@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6,
-p {
+p{
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -189,7 +189,7 @@ img{
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--slate, #434455);
-  text-align: center;
+  /* text-align: center; */
 }
 
 .first-section-background {
