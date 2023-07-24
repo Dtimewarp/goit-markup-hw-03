@@ -69,8 +69,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
   list-style: none;
-  
-}
+  }
 
 .header-style{
   border-bottom: 1px solid #e7e9fc;
@@ -80,6 +79,7 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  border: 2px solid red;
 }
 
 .header-line-container{
@@ -94,7 +94,6 @@ body {
 .nav-list-style{
   display: flex;
   gap: 40px;
-  
 }
 
 .nav-link{
@@ -194,7 +193,7 @@ body {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
-}
+  }
 
 .order-service-btn {
   background-color: #4d5ae5;
@@ -235,4 +234,34 @@ body {
 
 .container-background {
   background-color: #ffffff;
+}
+
+.section-two{
+  padding: 120px 0;
+}
+
+.section-two-list{
+display: flex;
+gap: 24px;
+}
+
+.section-two-item-width{
+ width: calc((100% - 72px) / 4);
+}
+
+.card-margin{
+  margin-bottom: 8px;
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
