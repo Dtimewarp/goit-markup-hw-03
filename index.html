@@ -10,23 +10,31 @@
       rel="stylesheet"
     />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <nav class="list">
+    <header class="header-style">
+      <div class="header-line-container container"></div>
+      <nav class="list nav-list">
         <a class="logo link" href="./index.html"
           >Web<span class="studio-color">Studio</span></a
         >
-        <ul class="list">
-          <li><a class="list link" href="./index.html">Studio</a></li>
-          <li><a class="list link" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="list link" href="">Contacts</a></li>
+        <ul class="list nav-list-style">
+          <li><a class="list link nav-link" href="./index.html">Studio</a></li>
+          <li><a class="list link nav-link" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="list link nav-link" href="">Contacts</a></li>
         </ul>
       </nav>
       <address class="address-list">
-        <ul class="list">
+        <ul class="list nav-list-style">
           <li>
             <a class="address-list link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -39,6 +47,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </header>
 
     <!-- Main content -->
