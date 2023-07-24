@@ -5,6 +5,7 @@
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -79,7 +80,7 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .header-line-container{
@@ -161,6 +162,9 @@ body {
   letter-spacing: 0.64px;
   color: var(--iris, #4d5ae5);
   background-color: var(--cloud, #f4f4fd);
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  border-radius: 4px;
 }
 
 .filter-main-button:hover,
@@ -168,6 +172,7 @@ body {
   color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .card {
@@ -323,4 +328,36 @@ overflow: hidden;
 
 .worker-card{
   padding: 32px 0;
+}
+
+.portfolio-filter{
+  padding-top: 96px; padding-bottom: 120px;
+}
+
+.filter-button-list{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.filter-card-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.filter-card-item{
+  width: calc((100% - 48px) / 3);
+}
+
+.card-info{
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  border-top: none;
+}
+
+.card-portfolio-descr{
+  margin-bottom: 8px;
 }
